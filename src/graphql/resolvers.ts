@@ -2,7 +2,7 @@ const {
 	Query: OrdersQuery,
 	Mutation: OrdersMutation
 	// tslint:disable-next-line: no-var-requires
-} = require('./orders/resolvers')
+} = require("./orders/resolvers");
 
 const resolvers = {
 	Query: {
@@ -11,6 +11,6 @@ const resolvers = {
 	Mutation: {
 		...OrdersMutation
 	}
-}
+};
 
-export default resolvers
+export default resolvers;

@@ -11,10 +11,10 @@ const typeDefs = `
       message: String!
       code: Int!
   }
-`
+`;
 
-import { OrdersSchema } from './orders/schema'
+import { OrdersSchema } from "./orders/schema";
 
-const schemaDefs = [typeDefs, OrdersSchema]
+const schemaDefs = [typeDefs, OrdersSchema];
 
-export default schemaDefs
+export default schemaDefs;

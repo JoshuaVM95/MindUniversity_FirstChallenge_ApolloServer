@@ -13,4 +13,4 @@ export const OrdersSchema = `
 	    hasExtraCheese: Boolean!
 	    price: Int!
     }
-`
+`;
